@@ -1,0 +1,49 @@
+img{
+     width: 450px;
+     align-items: center;
+     margin: 0 auto;
+}
+.imagem{
+     width: 200px;
+     height: 200px;
+     overflow: hidden;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+}
+.content-img{
+    display: flex;
+    justify-content: center; 
+}
+.InfosPessoais{
+     text-align: center;
+}
+.infosPessoais{
+     font-size: x-large;
+     text-align: center;
+}
+.infoContatos{
+     text-align: center;
+}
+.infosResidencia{
+     text-align: center;
+}
+th{
+     justify-content: center;
+     align-items: center;
+     width: 10%;
+     background-color: aqua;
+}
+h1{
+     text-align: center;
+}
+#botao-voltar{
+     padding: 10px 20px;
+     font-size: 14px;
+     background-color: black;
+     color: white;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+}
+

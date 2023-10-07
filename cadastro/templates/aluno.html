@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+<a href="javascript:history.back()" class="botao-voltar btn btn-primary btn-sm">VOLTAR</a>
+
+<div class="container ">
+     <div class="content-img border">
+          <div class="imagem">
+               <img src="{{ aluno.foto.url }}" alt="imagem de {{aluno.nome}}">
+          </div>
+     </div>
+
+     <h3 class="InfosPessoais">{{aluno.nome}}</h3>
+     <div class="infosPessoais border p-3">
+          <h3>Informações pessoais</h3>
+          <div class="row ">
+               <div class="col-12">
+                    <p>Idade: {{aluno.idade}}</p>
+                    <p>CPF: {{aluno.CPF}}</p>
+
+               </div>
+          </div>
+     </div>
+     <div class="infoContatos border p-3">
+          <h3>Contatos</h3>
+          <div class="row">
+               <div class="col12">
+                    <p>Email: {{aluno.email}}</p>
+                    <p>Contato: {{aluno.contato}}</p>
+               </div>
+          </div>
+     </div>
+     <div class="infosResidencia border p-3">
+          <h3>Localidade</h3>
+          <div class="col12">
+               <p>Endereço: {{aluno.endereço}}</p>
+               <p>CEP: {{aluno.cep}}</p>
+          </div>
+     </div>
+</div>
+
+{% endblock %}
